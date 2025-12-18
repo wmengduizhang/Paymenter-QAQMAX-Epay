@@ -28,10 +28,10 @@ class QAQMAX extends Gateway
             [
                 'name' => 'base_url',
                 'label' => '接口地址（Base URL）',
-                'description' => '你的商户接口地址，例如：https://b3a83171.qaqmax.com（不要以 / 结尾）',
+                'description' => '你的商户接口地址，例如：https://api.5ssr.com（不要以 / 结尾）',
                 'type' => 'text',
                 'required' => true,
-                'default' => 'https://b3a83171.qaqmax.com',
+                'default' => 'https://api.5ssr.com',
             ],
             [
                 'name' => 'pid',
